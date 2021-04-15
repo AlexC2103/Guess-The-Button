@@ -1,2 +1,2 @@
-# My first mini-project
-Ghiceste Butonul
+# Ghiceste Butonul
+My first mini-project
