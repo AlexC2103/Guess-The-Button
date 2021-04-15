@@ -1,0 +1,25 @@
+.guessBtn {
+  padding: 25px 34px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+}
+#container {
+  text-align: center;
+}
+#container1 {
+  text-align: center;
+}
+.guessBtn:hover {
+  box-shadow: 0 10px 14px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.gameBtn {
+  background-color: gray;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
