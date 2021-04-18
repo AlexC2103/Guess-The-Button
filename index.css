@@ -3,6 +3,12 @@
   text-decoration: none;
   display: inline-block;
   font-size: 20px;
+  border-radius: 50%;
+  border-color: rgb( 114, 123, 161 );
+}
+.guessBtn:focus {
+  outline: none;
+  box-shadow: none;
 }
 #container {
   text-align: center;
@@ -22,4 +28,11 @@
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+  border-radius: 12px;
+}
+.gameBtn:hover {
+  background-color:  #434343;
+}
+body {
+  background-color: rgb( 114, 123, 161 );
 }
