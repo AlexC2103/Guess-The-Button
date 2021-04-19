@@ -36,3 +36,12 @@
 body {
   background-color: rgb( 114, 123, 161 );
 }
+#stats {
+  text-align: center;
+}
+#game {
+  width: 300px;
+  border: 15px solid #4d53bd;
+  padding: 25px;
+  margin: 20px;
+}
