@@ -11,21 +11,29 @@
 
   <body>
     <br> <br>
-    <div>
-      <h1 id="container">
-        Guess The Button
-      </h1>
-    </div>
-    <div id="container">
-      <button id="1" onClick='replyClick(this.id)' type="button" class="guessBtn"> 1 </button>
-      <button id="2" onClick='replyClick(this.id)' type="button" class="guessBtn"> 2 </button>
-      <button id="3" onClick='replyClick(this.id)' type="button" class="guessBtn"> 3 </button>
-    </div>
-    <br>
-    <div id="container1">
-      <button id="reset" onClick='restart()' type="button" class="gameBtn">Restart</button>
-      <button id="endGame" onClick='endGame()' type="button" class="gameBtn">End Game</button>
-    </div>
+    <div id="game">
+      <div>
+        <h1 id="container">
+          Guess The Button
+        </h1>
+      </div>
+      <div id="container">
+        <button id="1" onClick='replyClick(this.id)' type="button" class="guessBtn"> 1 </button>
+        <button id="2" onClick='replyClick(this.id)' type="button" class="guessBtn"> 2 </button>
+        <button id="3" onClick='replyClick(this.id)' type="button" class="guessBtn"> 3 </button>
+      </div>
+      <br>
+      <div id="container1">
+        <button id="reset" onClick='restart()' type="button" class="gameBtn">Restart</button>
+        <button id="endGame" onClick='endGame()' type="button" class="gameBtn">End Game</button>
+      </div>
+      <br>
+      <p id="stats">
+        CORRECT BUTTONS: 0
+        <br>
+        WRONG BUTTONS: 0
+      </p>
+  </div>
   </body>
 
 </html>
