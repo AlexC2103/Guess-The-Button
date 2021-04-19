@@ -20,6 +20,9 @@ function replyClick(clickedID) {
       }
     }
   }
+
+  document.getElementById('stats').innerHTML = 'CORRECT BUTTONS: ' + correctButtons + '<br>' +
+                                               'WRONG BUTTONS: ' + wrongButtons;
 }
 
 function restart() {
@@ -34,4 +37,6 @@ function restart() {
 function endGame() {
   restart();
   wrongButtons = correctButtons = 0;
+  document.getElementById('stats').innerHTML = 'CORRECT BUTTONS: 0' + '<br>' +
+                                               'WRONG BUTTONS: 0';
 }
